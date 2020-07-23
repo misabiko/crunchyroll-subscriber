@@ -1,0 +1,14 @@
+{
+	"name": "Crunchyroll Subscriber",
+	"version": "0.1",
+	"description": "Adds a feedly follow button for each show in your queue.",
+	"manifest_version": 2,
+	"content_scripts": [
+		{
+			"matches": ["https://www.crunchyroll.com/home/queue"],
+			"js": ["content-script.js"],
+			"css": ["style.css"]
+		}
+	],
+	"web_accessible_resources": ["feedly-follow-feedlyshape-orange.png"]
+}
