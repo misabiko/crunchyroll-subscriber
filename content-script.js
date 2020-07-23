@@ -28,7 +28,7 @@ function getFeedlyButton(show) {
 	anchor.target = 'blank';
 
 	const img = document.createElement('img');
-	img.src = chrome.runtime.getURL('feedly-follow-feedlyshape-orange.png');
+	img.src = chrome.runtime.getURL('images/feedly-follow-feedlyshape-orange.png');
 	img.alt = 'Follow on Feedly';
 	img.width = 21;
 	img.height = 21;

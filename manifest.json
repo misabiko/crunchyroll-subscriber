@@ -10,5 +10,5 @@
 			"css": ["style.css"]
 		}
 	],
-	"web_accessible_resources": ["feedly-follow-feedlyshape-orange.png"]
+	"web_accessible_resources": ["images/feedly-follow-feedlyshape-orange.png"]
 }
